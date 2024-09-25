@@ -104,12 +104,12 @@ export default {
       },
       backgroundImage: {
         heroSectionBackground:
-          'url("./src/assets/Imgs/01_herosection_background.png")',
+          'url("./src/assets/imgs/01_herosection_background.png")',
         customGradient:
           "linear-gradient(180deg, rgba(56, 29, 219, 0.05) 0%, rgba(56, 29, 219, 0) 100%)",
         customGradientPink:
           "linear-gradient(180deg, rgba(252, 82, 82, 0.05) 0%, rgba(252, 82, 82, 0) 100%)",
-        instagramBackground: `url(./src/assets/Imgs/ConcertImgs/07_concert_instagram.png)`,
+        instagramBackground: `url(./src/assets/imgs/Concertimgs/07_concert_imgs_imgs_instagram.png)`,
       },
       boxShadow: {
         custom: "0 4px 6px rgba(33, 33, 33, 0.15)", // Modify the shadow values as needed

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { TESTIMONIALS_DATA } from "../utils/constant";
-import vectorOne from "../assets/Imgs/Testimonials/01_vector.svg";
-import vectorTwo from "../assets/Imgs/Testimonials/02_vector.svg";
+import vectorOne from "../assets/imgs/testimonial_imgs/01_vector.svg";
+import vectorTwo from "../assets/imgs/testimonial_imgs/02_vector.svg";
 
-const Testimonials = () => {
+const Testmonials = () => {
   const [currentIndex, setCurrentIndex] = useState(1);
 
   const nextTestimonial = () => {
@@ -22,7 +22,7 @@ const Testimonials = () => {
     <>
       <div className="mb-[240px] overflow-hidden">
         <h2 className="font-bold font-montserrat text-[34px] text-center">
-          Testimonials
+        Testimonials
         </h2>
         <div className="mt-[60px]">
           <div className="relative">
@@ -92,4 +92,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Testmonials;

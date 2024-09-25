@@ -1,23 +1,23 @@
-import popImg from "../assets/Imgs/CategoriesLogo/01_categories_pop.svg";
-import folkImg from "../assets/Imgs/CategoriesLogo/02_categories_folk.svg";
-import instrumentalImg from "../assets/Imgs/CategoriesLogo/03_categories_instrumental.svg";
-import rockImg from "../assets/Imgs/CategoriesLogo/04_categories_rock.svg";
-import jazzImg from "../assets/Imgs/CategoriesLogo/05_categories_jazz.svg";
+import popImg from "../assets/imgs/categories_logo/01_categories_pop.svg";
+import folkImg from "../assets/imgs/categories_logo/02_categories_folk.svg";
+import instrumentalImg from "../assets/imgs/categories_logo/03_categories_instrumental.svg";
+import rockImg from "../assets/imgs/categories_logo/04_categories_rock.svg";
+import jazzImg from "../assets/imgs/categories_logo/05_categories_jazz.svg";
 
 // Sponsors
-import sponsorOne from "../assets/Imgs/SponsorsImg/01_sponsor_company.png";
-import sponsorTwo from "../assets/Imgs/SponsorsImg/02_sponsor_company.png";
-import sponsorThree from "../assets/Imgs/SponsorsImg/03_sponsor_company.png";
-import sponsorFour from "../assets/Imgs/SponsorsImg/04_sponsor_company.png";
-import sponsorFive from "../assets/Imgs/SponsorsImg/05_sponsor_company.png";
-import sponsorSix from "../assets/Imgs/SponsorsImg/06_sponsor_company.png";
-import sponsorSeven from "../assets/Imgs/SponsorsImg/07_sponsor_company.png";
-import sponsorEight from "../assets/Imgs/SponsorsImg/08_sponsor_company.png";
+import sponsorOne from "../assets/imgs/sponsors_imgs/01_sponsor_company.png";
+import sponsorTwo from "../assets/imgs/sponsors_imgs/02_sponsor_company.png";
+import sponsorThree from "../assets/imgs/sponsors_imgs/03_sponsor_company.png";
+import sponsorFour from "../assets/imgs/sponsors_imgs/04_sponsor_company.png";
+import sponsorFive from "../assets/imgs/sponsors_imgs/05_sponsor_company.png";
+import sponsorSix from "../assets/imgs/sponsors_imgs/06_sponsor_company.png";
+import sponsorSeven from "../assets/imgs/sponsors_imgs/07_sponsor_company.png";
+import sponsorEight from "../assets/imgs/sponsors_imgs/08_sponsor_company.png";
 
-//concert images
-import concertOne from "../assets/Imgs/ConcertImgs/01_concert.png";
-import concertTwo from "../assets/Imgs/ConcertImgs/02_concert.png";
-import concertThree from "../assets/Imgs/ConcertImgs/03_concert.png";
+//concert_imgs images
+import concert_imgsOne from "../assets/imgs/concert_imgs/01_concert.png";
+import concert_imgsTwo from "../assets/imgs/concert_imgs/02_concert.png";
+import concert_imgsThree from "../assets/imgs/concert_imgs/03_concert.png";
 
 export const cardData = [
   {
@@ -130,10 +130,10 @@ export const CONCERT_DATA = [
     likes: 412,
     comments: 140,
     heading: "Lorem Ipsum Amet",
-    image: concertThree,
+    image: concert_imgsThree,
     hashtags: [
       "#music",
-      "#concert",
+      "#concert_imgs",
       "#conference",
       "#london",
       "#event",
@@ -147,10 +147,10 @@ export const CONCERT_DATA = [
     likes: 412,
     comments: 140,
     heading: "Lorem Ipsum Amet",
-    image: concertTwo,
+    image: concert_imgsTwo,
     hashtags: [
       "#music",
-      "#concert",
+      "#concert_imgs",
       "#conference",
       "#london",
       "#event",
@@ -164,10 +164,10 @@ export const CONCERT_DATA = [
     likes: 412,
     comments: 140,
     heading: "Lorem Ipsum Amet",
-    image: concertThree,
+    image: concert_imgsThree,
     hashtags: [
       "#music",
-      "#concert",
+      "#concert_imgs",
       "#conference",
       "#london",
       "#event",
@@ -181,10 +181,10 @@ export const CONCERT_DATA = [
     likes: 412,
     comments: 140,
     heading: "Lorem Ipsum Amet",
-    image: concertTwo,
+    image: concert_imgsTwo,
     hashtags: [
       "#music",
-      "#concert",
+      "#concert_imgs",
       "#conference",
       "#london",
       "#event",
@@ -198,10 +198,10 @@ export const CONCERT_DATA = [
     likes: 412,
     comments: 140,
     heading: "Lorem Ipsum Amet",
-    image: concertThree,
+    image: concert_imgsThree,
     hashtags: [
       "#music",
-      "#concert",
+      "#concert_imgs",
       "#conference",
       "#london",
       "#event",
@@ -215,10 +215,10 @@ export const CONCERT_DATA = [
     likes: 412,
     comments: 140,
     heading: "Lorem Ipsum Amet",
-    image: concertThree,
+    image: concert_imgsThree,
     hashtags: [
       "#music",
-      "#concert",
+      "#concert_imgs",
       "#conference",
       "#london",
       "#event",
@@ -232,10 +232,10 @@ export const CONCERT_DATA = [
     likes: 412,
     comments: 140,
     heading: "Lorem Ipsum Amet",
-    image: concertThree,
+    image: concert_imgsThree,
     hashtags: [
       "#music",
-      "#concert",
+      "#concert_imgs",
       "#conference",
       "#london",
       "#event",

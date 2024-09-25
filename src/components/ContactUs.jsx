@@ -1,9 +1,9 @@
 import CustomButton from "./Common/CustomButton";
-import phoneIcon from "../assets/Imgs/ContactUsImg/01_contact_phone.svg";
-import emailIcon from "../assets/Imgs/ContactUsImg/02_contact_email.svg";
-import locationIcon from "../assets/Imgs/ContactUsImg/03_contact_point.svg";
-import shapeOne from '../assets/Imgs/ContactUsImg/ContactUsFloatingElements/01_contactus_shape.svg';
-import shapeTwo from '../assets/Imgs/ContactUsImg/ContactUsFloatingElements/02_contactus_shape.svg';
+import phoneIcon from "../assets/imgs/contactus_imgs/01_contact_phone.svg";
+import emailIcon from "../assets/imgs/contactus_imgs/02_contact_email.svg";
+import locationIcon from "../assets/imgs/contactus_imgs/03_contact_point.svg";
+import shapeOne from '../assets/imgs/contactus_imgs/ContactUsFloatingElements/01_contactus_shape.svg';
+import shapeTwo from '../assets/imgs/contactus_imgs/ContactUsFloatingElements/02_contactus_shape.svg';
 
 
 const ContactUs = () => {

@@ -1,9 +1,9 @@
 import React from "react";
-import logoImg from "../assets/Imgs/01_navbar_logo.svg";
-import facebook from "../assets/Imgs/FooterImg/01_Facebook.svg";
-import twitter from "../assets/Imgs/FooterImg/04_Twitter.svg";
-import instagram from "../assets/Imgs/FooterImg/02_Instagram.svg";
-import linkedin from "../assets/Imgs/FooterImg/03_Linkedin.svg";
+import logoImg from "../assets/imgs/01_navbar_logo.svg";
+import facebook from "../assets/imgs/footer_imgs/01_Facebook.svg";
+import twitter from "../assets/imgs/footer_imgs/04_Twitter.svg";
+import instagram from "../assets/imgs/footer_imgs/02_Instagram.svg";
+import linkedin from "../assets/imgs/footer_imgs/03_Linkedin.svg";
 
 const Footer = () => {
   return (

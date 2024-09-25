@@ -1,15 +1,14 @@
-import personOne from "../assets/Imgs/Singers/01_singer.png";
-import personTwo from "../assets/Imgs/Singers/02_singer.png";
-import personThree from "../assets/Imgs/Singers/03_singer.png";
-import personFour from "../assets/Imgs/Singers/04_singer.png";
-import personOneBackground from "../assets/Imgs/Singers/05_singer_background.png";
-import personTwoBackground from "../assets/Imgs/Singers/06_singer_backgroud.png";
-import personThreeBackground from "../assets/Imgs/Singers/07_singer_background.png";
-import personFourBackground from "../assets/Imgs/Singers/08_singer_background.png";
-import line from "../assets/Imgs/Singers/SingersFloatingElements/01_singers_line.svg";
-import triangle from "../assets/Imgs/Singers/SingersFloatingElements/02_singers_triangle.svg";
-import box from "../assets/Imgs/Singers/SingersFloatingElements/03_singers_box.svg";
-
+import personOne from "../assets/imgs/singers_imgs/01_singer.png";
+import personTwo from "../assets/imgs/singers_imgs/02_singer.png";
+import personThree from "../assets/imgs/singers_imgs/03_singer.png";
+import personFour from "../assets/imgs/singers_imgs/04_singer.png";
+import personOneBackground from "../assets/imgs/singers_imgs/05_singer_background.png";
+import personTwoBackground from "../assets/imgs/singers_imgs/06_singer_backgroud.png";
+import personThreeBackground from "../assets/imgs/singers_imgs/07_singer_background.png";
+import personFourBackground from "../assets/imgs/singers_imgs/08_singer_background.png";
+import line from "../assets/imgs/singers_imgs/SingersFloatingElements/01_singers_line.svg";
+import triangle from "../assets/imgs/singers_imgs/SingersFloatingElements/02_singers_triangle.svg";
+import box from "../assets/imgs/singers_imgs/SingersFloatingElements/03_singers_box.svg";
 import CustomButton from "./Common/CustomButton";
 const Singers = () => {
   return (

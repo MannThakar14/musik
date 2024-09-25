@@ -1,7 +1,7 @@
 import PlanCard from "./Common/PlanCard";
 import { plans } from "../utils/constant";
-import line from "../assets/Imgs/Plans/PlansFloatingElements/01_plans_line.svg";
-import circle from "../assets/Imgs/Plans/PlansFloatingElements/02_plans_circle.svg";
+import line from "../assets/imgs/plans_imgs/PlansFloatingElements/01_plans_line.svg";
+import circle from "../assets/imgs/plans_imgs/PlansFloatingElements/02_plans_circle.svg";
 
 const Plans = () => {
   return (

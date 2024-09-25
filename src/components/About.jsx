@@ -1,7 +1,9 @@
-import aboutConcertImage from "../assets/Imgs/About/01_about_concert.png";
-import aboutConcertBackgroud from "../assets/Imgs/About/02_about_concert_backgroud.png";
+import AboutConcertImage from "../assets/imgs/about_imgs/about_floating_elements/01_about_line.svg";
+import aboutBackground from "../assets/imgs/about_imgs/02_about_concert_backgroud.png";
 import CustomButton from "./Common/CustomButton";
-import line from "../assets/Imgs/About/AboutFloatingElements/01_about_line.svg";
+import line from "../assets/imgs/about_imgs/about_floating_elements/01_about_line.svg";
+import aboutConcert from "../assets/imgs/about_imgs/01_about_concert.png";
+
 const About = () => {
   return (
     <>
@@ -9,12 +11,12 @@ const About = () => {
         <div className="flex justify-between container  h-full">
           <div className="relative">
             <img
-              src={aboutConcertImage}
+              src={aboutConcert}
               alt=""
               srcSet=""
               className="top-[70px] left-[70px] absolute mb-10"
             />
-            <img src={aboutConcertBackgroud} alt="" srcSet="" className="" />
+            <img src={aboutBackground} alt="" srcSet="" className="" />
           </div>
           <div className="w-[570px] h-[336px] flex flex-col self-center">
             <h2 className="font-bold font-montserrat text-[34px]">

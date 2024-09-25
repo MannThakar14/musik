@@ -1,7 +1,7 @@
 import { sponsorsImages } from "../utils/constant";
 import CustomButton from "./Common/CustomButton";
-import sponsorOne from "../assets/Imgs/SponsorsImg/SponsorFloatingElements/01_sponsor_box.png";
-import sponsorTwo from "../assets/Imgs/SponsorsImg/SponsorFloatingElements/02_sponsor_triangle.png";
+import sponsorOne from "../assets/imgs/sponsors_imgs/SponsorFloatingElements/01_sponsor_box.png";
+import sponsorTwo from "../assets/imgs/sponsors_imgs/SponsorFloatingElements/02_sponsor_triangle.png";
 
 const Sponsors = () => {
   return (

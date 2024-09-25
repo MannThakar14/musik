@@ -1,5 +1,5 @@
 import { Heart } from "lucide-react";
-import comment from "../../assets/Imgs/ConcertImgs/04_comments.svg";
+import comment from "../../assets/imgs/concert_imgs/04_comments.svg";
 
 const ConcertCard = ({ likes, comments, heading, image, hashtags }) => {
   return (

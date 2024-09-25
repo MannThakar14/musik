@@ -1,7 +1,7 @@
-import scaleOne from "../../assets/Imgs/CategoriesLogo/CategoryFloatingElements/01_category_line.svg";
-import scaleTwo from "../../assets/Imgs/CategoriesLogo/CategoryFloatingElements/02_category_line.svg";
-import scaleThree from "../../assets/Imgs/CategoriesLogo/CategoryFloatingElements/03_category_line.svg";
-import circle from "../../assets/Imgs/CategoriesLogo/CategoryFloatingElements/04_category_circle.svg";
+import scaleOne from "../../assets/imgs/categories_logo/category_floating_elements/01_category_line.svg";
+import scaleTwo from "../../assets/imgs/categories_logo/category_floating_elements/02_category_line.svg";
+import scaleThree from "../../assets/imgs/categories_logo/category_floating_elements/03_category_line.svg";
+import circle from "../../assets/imgs/categories_logo/category_floating_elements/04_category_circle.svg";
 const Card = ({ img, heading, descripstion, color, id }) => {
   return (
     <>

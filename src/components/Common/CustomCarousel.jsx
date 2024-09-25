@@ -1,9 +1,9 @@
 import { Carousel } from "@trendyol-js/react-carousel";
 import { CONCERT_DATA } from "../../utils/constant";
 import ConcertCard from "./ConcertCard";
-import LeftImg from "../../assets/Imgs/ConcertImgs/05_concert_left_icon.svg";
-import RightImg from "../../assets/Imgs/ConcertImgs/06_concert_right_icon.svg";
-import instagramBackGround from "../../assets/Imgs/ConcertImgs/07_concert_instagram.png";
+import LeftImg from '../../assets/imgs/concert_imgs/05_concert_left_icon.svg';
+import RightImg from '../../assets/imgs/concert_imgs/06_concert_right_icon.svg';
+import instagramBackGround from "../../assets/imgs/concert_imgs/07_concert_instagram.png";
 
 const CustomCarousel = () => {
   return (

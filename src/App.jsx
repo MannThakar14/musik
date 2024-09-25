@@ -6,7 +6,7 @@ import Singers from "./components/Singers";
 import Table from "./components/Table";
 import Plans from "./components/Plans";
 import Sponsors from "./components/Sponsors";
-import Testimonials from "./components/Testimonials";
+import Testmonials from "./components/Testimonials";
 import CustomCarousel from "./components/Common/CustomCarousel";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
@@ -20,7 +20,7 @@ const App = () => {
       <Table />
       <Plans />
       <Sponsors />
-      <Testimonials />
+      <Testmonials />
       <CustomCarousel />
       <ContactUs />
       <Footer />
