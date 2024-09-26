@@ -1,24 +1,28 @@
-import AboutConcertImage from "../assets/imgs/about_imgs/about_floating_elements/01_about_line.svg";
-import aboutBackground from "../assets/imgs/about_imgs/02_about_concert_backgroud.png";
+import { ABOUT_IMAGES } from "../utils/images";
 import CustomButton from "./Common/CustomButton";
-import line from "../assets/imgs/about_imgs/about_floating_elements/01_about_line.svg";
-import aboutConcert from "../assets/imgs/about_imgs/01_about_concert.png";
 
 const About = () => {
+
+  const { line, conertBlurBackground, concertBackground } = ABOUT_IMAGES;
   return (
     <>
-      <div className="w-full relative h-[550px] mb-[240px]">
-        <div className="flex justify-between container  h-full">
+      <div className="w-full relative lg:h-[550px] mb-[240px] sm:h-full">
+        <div className="flex justify-between container h-full lg:flex-row sm:flex-col sm:items-center">
           <div className="relative">
             <img
-              src={aboutConcert}
-              alt=""
+              src={concertBackground}
+              alt="about Background Image"
               srcSet=""
               className="top-[70px] left-[70px] absolute mb-10"
             />
-            <img src={aboutBackground} alt="" srcSet="" className="" />
+            <img
+              src={conertBlurBackground}
+              alt="blured background"
+              srcSet=""
+              className=""
+            />
           </div>
-          <div className="w-[570px] h-[336px] flex flex-col self-center">
+          <div className="w-[570px] h-[336px] flex flex-col self-center lg:mt-0 sm:mt-28 sm:items-center lg:items-start">
             <h2 className="font-bold font-montserrat text-[34px]">
               About Musik
             </h2>
@@ -32,13 +36,18 @@ const About = () => {
             </p>
             <CustomButton
               buttonText="Learn More"
-              height="60px"
-              width="199px"
-              isIcon={true}
+              height="h-[60px]"
+              width="w-[199px]"
+              isIcon
             />
           </div>
         </div>
-        <img src={line} alt="" srcset="" className="w-44 h-40 absolute left-24 bottom-0" />
+        <img
+          src={line}
+          alt="Floating Line"
+          srcset=""
+          className="w-44 h-40 absolute left-24 bottom-0 lg:block sm:hidden"
+        />
       </div>
     </>
   );

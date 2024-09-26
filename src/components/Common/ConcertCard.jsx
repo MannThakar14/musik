@@ -1,11 +1,12 @@
 import { Heart } from "lucide-react";
-import comment from "../../assets/imgs/concert_imgs/04_comments.svg";
+import { CUSTOM_CAROUSEL_IMAGES } from "../../utils/images";
 
 const ConcertCard = ({ likes, comments, heading, image, hashtags }) => {
+  const { comment } = CUSTOM_CAROUSEL_IMAGES;
   return (
     <>
       <div className="w-[370px] h-[506px]">
-        <img src={image} alt="" />
+        <img src={image} alt="concert Image" />
         <div>
           <div className="flex gap-10 mt-6">
             <div className="flex gap-2">
@@ -13,7 +14,7 @@ const ConcertCard = ({ likes, comments, heading, image, hashtags }) => {
               <h2 className="font-bold font-montserrat text-base">{likes}</h2>
             </div>
             <div className="flex gap-2">
-              <img src={comment} alt="" srcset="" />
+              <img src={comment} alt="comment" srcset="" />
               <h2 className="font-bold font-montserrat text-base">
                 {comments}
               </h2>

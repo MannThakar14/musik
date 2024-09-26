@@ -1,29 +1,30 @@
-import scaleOne from "../../assets/imgs/categories_logo/category_floating_elements/01_category_line.svg";
-import scaleTwo from "../../assets/imgs/categories_logo/category_floating_elements/02_category_line.svg";
-import scaleThree from "../../assets/imgs/categories_logo/category_floating_elements/03_category_line.svg";
-import circle from "../../assets/imgs/categories_logo/category_floating_elements/04_category_circle.svg";
+import { CATEGORIES_IMAGES } from "../../utils/images";
+
 const Card = ({ img, heading, descripstion, color, id }) => {
+  const { lineOne, lineTwo, lineThree, circle } = CATEGORIES_IMAGES;
+
+  console.log(id);
   return (
     <>
-      {id === 0 && (
-        <img src={scaleOne} alt={heading} className="top-16 left-20 absolute" />
-      )}
-      <div
-        style={{ backgroundColor: color }}
-        className="p-1 pl-14 rounded-3xl w-[370px] h-[326px]"
-      >
-        <img src={img} alt={heading} className="mt-[86px] w-10 h-10" />
+      <img
+        src={lineOne}
+        alt={heading}
+        className="top-16 left-20 absolute lg:block sm:hidden"
+      />
+
+      <div className={`p-1 lg:pl-14 rounded-3xl w-[370px] h-[326px] ${color} sm:p-5`}>
+        <img src={img} alt={heading} className="lg:mt-[86px] w-10 h-10 sm:mt-5" />
         <div className="w-fit">
           <h2 className="mt-[30px] w-fit font-extrabold font-montserrat text-[#222222] text-2xl">
             {heading}
           </h2>
-          <p className="opacity-70 mt-[20px] w-[190px] font-normal font-raleway text-[#222222] text-base leading-6">
+          <p className="opacity-70 mt-[20px] w-[190px] font-normal font-raleway text-[#222222] lg:text-base leading-6 sm:text-sm">
             {descripstion}
           </p>
           {id === 4 && (
             <img
               src={circle}
-              alt=""
+              alt="Floating Circle"
               className="right-[53px] absolute"
             />
           )}
@@ -31,22 +32,19 @@ const Card = ({ img, heading, descripstion, color, id }) => {
       </div>
       {id === 0 && (
         <img
-          src={scaleTwo}
-          alt=""
-          className="-bottom-[100px] left-[150px] absolute"
+          src={lineTwo}
+          alt="Floating Line"
+          className="-bottom-[100px] left-[150px] absolute lg:block sm:hidden"
         />
       )}
 
       {id === 4 && (
         <img
-          src={scaleThree}
-          alt=""
-          className="top-[113px] right-44 absolute"
+          src={lineThree}
+          alt="Floating Line"
+          className="top-[113px] right-44 absolute lg:block sm:hidden"
         />
       )}
-     
-      
-
     </>
   );
 };

@@ -1,35 +1,34 @@
 import React, { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { TESTIMONIALS_DATA } from "../utils/constant";
-import vectorOne from "../assets/imgs/testimonial_imgs/01_vector.svg";
-import vectorTwo from "../assets/imgs/testimonial_imgs/02_vector.svg";
+import { TESTIMONIAL_DATA } from "../utils/constant";
+import { TESTIMONIAL_IMAGES } from "../utils/images";
 
 const Testmonials = () => {
   const [currentIndex, setCurrentIndex] = useState(1);
-
+  const { vectorOne, vectorTwo } = TESTIMONIAL_IMAGES;
   const nextTestimonial = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === TESTIMONIALS_DATA.length - 1 ? 0 : prevIndex + 1
+      prevIndex === TESTIMONIAL_DATA.length - 1 ? 0 : prevIndex + 1
     );
   };
 
   const prevTestimonial = () => {
     setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? TESTIMONIALS_DATA.length - 1 : prevIndex - 1
+      prevIndex === 0 ? TESTIMONIAL_DATA.length - 1 : prevIndex - 1
     );
   };
   return (
     <>
       <div className="mb-[240px] overflow-hidden">
         <h2 className="font-bold font-montserrat text-[34px] text-center">
-        Testimonials
+          Testimonials
         </h2>
         <div className="mt-[60px]">
           <div className="relative">
             <div className="flex justify-center items-center">
-              {TESTIMONIALS_DATA.map((testimonial, index) => (
+              {TESTIMONIAL_DATA.map((testimonial, index) => (
                 <div
-                  key={TESTIMONIALS_DATA.id}
+                  key={TESTIMONIAL_DATA.id}
                   className={`transition-all duration-300 ${
                     index === currentIndex
                       ? "opacity-100 scale-100"
@@ -41,7 +40,7 @@ const Testmonials = () => {
                       <div className="mx-[30px] mt-[20px]">
                         <img
                           src={vectorOne}
-                          alt=""
+                          alt="quotation"
                           srcset=""
                           className="w-[24px] h-[24px]"
                         />
@@ -50,8 +49,7 @@ const Testmonials = () => {
                         </p>
                         <img
                           src={vectorTwo}
-                          alt=""
-                          srcset=""
+                          alt="quotation"
                           className="float-right w-[30px] h-[30px]"
                         />
                       </div>
@@ -59,7 +57,7 @@ const Testmonials = () => {
                     <div className="bottom-0 left-1/2 absolute transform -translate-x-1/2">
                       <img
                         src="https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1727049600&semt=ais_hybrid"
-                        alt=""
+                        alt="Profile Pic"
                         className="mx-auto rounded-full w-[120px] h-[120px]"
                       />
                       <p className="mt-[20px] font-extrabold font-montserrat text-[#222222] text-center text-xl">

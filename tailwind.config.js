@@ -123,6 +123,10 @@ export default {
       transitionTimingFunction: {
         "custom-ease": "ease-in-out", // Easing function
       },
+      borderRadius: {
+        "custom-rounded": "20px",
+        "custom-rounded-xs": "5px",
+      },
     },
   },
   plugins: [require("daisyui")],

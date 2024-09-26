@@ -19,41 +19,52 @@ import concert_imgsOne from "../assets/imgs/concert_imgs/01_concert.png";
 import concert_imgsTwo from "../assets/imgs/concert_imgs/02_concert.png";
 import concert_imgsThree from "../assets/imgs/concert_imgs/03_concert.png";
 
+
+export const NAV_LINKS = [
+  {name: "HOME", link: "/"},
+  {name: "SPEAKERS", link: "/"},
+  {name: "SCHEDULE", link: "/"},
+  {name: "CONTACT US", link: "/"},
+]
+
+
+
+
 export const cardData = [
   {
     img: popImg, // Directly assign the image
     heading: "Pop",
     description:
       "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae",
-    color: "#fbf3e8", // Replace with the actual color (in HEX, RGB, or named)
+    color: "bg-[#fbf3e8]", 
   },
   {
     img: folkImg,
     heading: "Folk",
     description:
       "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae",
-    color: "#ffeeee", // Replace with the actual color
+    color: "bg-[#ffeeee]", // Replace with the actual color
   },
   {
     img: instrumentalImg,
     heading: "Instrumental",
     description:
       "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae",
-    color: "#381ddb", // Replace with the actual color
+    color: "bg-[#381ddb]", // Replace with the actual color
   },
   {
     img: rockImg,
     heading: "Rock",
     description:
       "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae",
-    color: "#f9e5f5", // Replace with the actual color
+    color: "bg-[#f9e5f5]", // Replace with the actual color
   },
   {
     img: jazzImg,
     heading: "Jazz",
     description:
       "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae",
-    color: "#f3f9ff",
+    color: "bg-[#f3f9ff]",
   },
 ];
 
@@ -70,7 +81,8 @@ export const plans = [
     subHeadingOne: true,
     subHeadingTwo: false,
     subHeadingThree: false,
-    color: "#222222",
+    bgColor: "bg-[#222222]",
+    textColor:"text-[#222222]",
   },
   {
     heading: "Standard",
@@ -78,7 +90,8 @@ export const plans = [
     subHeadingOne: true,
     subHeadingTwo: true,
     subHeadingThree: false,
-    color: "#381DDB",
+    bgColor: "bg-[#381DDB]",
+    textColor:"text-[#381DDB]",
   },
   {
     heading: "Premium",
@@ -86,7 +99,8 @@ export const plans = [
     subHeadingOne: true,
     subHeadingTwo: true,
     subHeadingThree: true,
-    color: "#FC5252",
+    bgColor: "bg-[#FC5252]",
+    textColor:"text-[#FC5252]",
   },
 ];
 
@@ -101,7 +115,7 @@ export const sponsorsImages = [
   sponsorEight,
 ];
 
-export const TESTIMONIALS_DATA = [
+export const TESTIMONIAL_DATA = [
   {
     id: 1,
     name: "Ellie James",
@@ -273,4 +287,12 @@ export const SCHEDULE_DATA = [
     ],
     status: 'Upcoming'
   }
+];
+
+export const FOOTER_LINKS = [
+  { name: "HOME", href: "#" },
+  { name: "COMPANY", href: "#" },
+  { name: "BLOG", href: "#" },
+  { name: "CONTACT US", href: "#" },
+  { name: "SITEMAP", href: "#" },
 ];

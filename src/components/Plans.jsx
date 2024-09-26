@@ -1,18 +1,28 @@
 import PlanCard from "./Common/PlanCard";
 import { plans } from "../utils/constant";
-import line from "../assets/imgs/plans_imgs/PlansFloatingElements/01_plans_line.svg";
-import circle from "../assets/imgs/plans_imgs/PlansFloatingElements/02_plans_circle.svg";
-
+import { PLAN_IMAGES } from "../utils/images";
 const Plans = () => {
+  const { planLine, planCircle } = PLAN_IMAGES;
+
   return (
     <div className="relative mb-[240px]">
-      <img src={line} alt="" srcset="" className="top-12 left-28 absolute" />
-      <img src={circle} alt="" srcset="" className="top-48 left-52 absolute" />
+      <img
+        src={planLine}
+        alt="Floating Line"
+        srcset=""
+        className="top-12 left-28 absolute lg:block sm:hidden"
+      />
+      <img
+        src={planCircle}
+        alt="Floating Circle"
+        srcset=""
+        className="top-48 left-52 absolute lg:block sm:hidden"
+      />
       <div className="container">
         <h2 className="font-bold font-montserrat text-[34px] text-center">
           Choose a Tier that’s right for you
         </h2>
-        <div className="flex justify-center gap-[30px] mt-[60px]">
+        <div className="flex justify-center gap-[30px] mt-[60px] lg:flex-row sm:flex-col sm:items-center lg:items-start">
           {plans?.map((plan) => (
             <PlanCard key={plan.id} {...plan} />
           ))}

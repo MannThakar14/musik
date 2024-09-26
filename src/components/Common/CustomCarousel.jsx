@@ -1,11 +1,11 @@
 import { Carousel } from "@trendyol-js/react-carousel";
 import { CONCERT_DATA } from "../../utils/constant";
 import ConcertCard from "./ConcertCard";
-import LeftImg from '../../assets/imgs/concert_imgs/05_concert_left_icon.svg';
-import RightImg from '../../assets/imgs/concert_imgs/06_concert_right_icon.svg';
-import instagramBackGround from "../../assets/imgs/concert_imgs/07_concert_instagram.png";
+import {CUSTOM_CAROUSEL_IMAGES} from "../../utils/images";
 
 const CustomCarousel = () => {
+  
+  const { LeftImg, RightImg, instagramBackGround } = CUSTOM_CAROUSEL_IMAGES;
   return (
     <div className="relative bg-customGradientPink mb-[240px] p-1 h-[770px]">
       <h2 className="mt-[160px] font-bold font-montserrat text-[34px] container">
